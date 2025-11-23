@@ -4,7 +4,10 @@
   "description": "learning of react",
   "main": "app.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "repository": {
     "type": "git",
@@ -21,6 +24,7 @@
   },
   "homepage": "https://github.com/DAWAR-666/namaste-react#readme",
   "devDependencies": {
+    "@vitejs/plugin-react": "^5.1.1",
     "vite": "^7.2.4"
   },
   "dependencies": {
